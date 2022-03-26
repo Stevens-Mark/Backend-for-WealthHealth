@@ -2,7 +2,7 @@
 
 const express = require('express');
 const mongoose = require('mongoose');
-const stuffRoutes = require('./routes/stuff');
+const employeesRoutes = require('./routes/employees');
 const app = express();
 
 app.use(express.json());
@@ -23,7 +23,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use('/api/stuff', stuffRoutes);
+app.use('/api/v1/employees', employeesRoutes);
 
 
 module.exports = app;

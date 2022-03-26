@@ -1,9 +1,9 @@
 // in controllers/stuff.js
 
-const Thing = require('../models/thing');
+const Employee = require('../models/employee');
 
 exports.createThing = (req, res, next) => {
-  const thing = new Thing({
+  const employee = new Employee({
     firstName: req.body.firstName,
     lastName: req.body.lastName,
     dateOfBirth: req.body.dateOfBirth,
@@ -14,9 +14,9 @@ exports.createThing = (req, res, next) => {
     zipCode: req.body.zipCode,
     department: req.body.department
   });
-  thing.save().then(
+  employee.save().then(
     () => {
-      res.status(201).json(thing);
+      res.status(201).json(employee);
     }
   ).catch(
     (error) => {
@@ -28,11 +28,11 @@ exports.createThing = (req, res, next) => {
 };
 
 exports.getOneThing = (req, res, next) => {
-  Thing.findOne({
+  Employee.findOne({
     _id: req.params.id
   }).then(
-    (thing) => {
-      res.status(200).json(thing);
+    (employee) => {
+      res.status(200).json(employee);
     }
   ).catch(
     (error) => {
@@ -44,7 +44,7 @@ exports.getOneThing = (req, res, next) => {
 };
 
 exports.modifyThing = (req, res, next) => {
-  const thing = new Thing({
+  const employee = new Employee({
     _id: req.params.id,
     firstName: req.body.firstName,
     lastName: req.body.lastName,
@@ -56,10 +56,10 @@ exports.modifyThing = (req, res, next) => {
     zipCode: req.body.zipCode,
     department: req.body.department
   });
-  Thing.updateOne({_id: req.params.id}, thing).then(
+  Employee.updateOne({_id: req.params.id}, employee).then(
     () => {
       res.status(201).json({
-        message: 'Thing updated successfully!'
+        message: 'Employee updated successfully!'
       });
     }
   ).catch(
@@ -72,7 +72,7 @@ exports.modifyThing = (req, res, next) => {
 };
 
 exports.deleteThing = (req, res, next) => {
-  Thing.deleteOne({_id: req.params.id}).then(
+  Employee.deleteOne({_id: req.params.id}).then(
     () => {
       res.status(200).json({
         message: 'Deleted!'
@@ -88,9 +88,9 @@ exports.deleteThing = (req, res, next) => {
 };
 
 exports.getAllStuff = (req, res, next) => {
-  Thing.find().then(
-    (things) => {
-      res.status(200).json(things);
+  Employee.find().then(
+    (employees) => {
+      res.status(200).json(employees);
     }
   ).catch(
     (error) => {
