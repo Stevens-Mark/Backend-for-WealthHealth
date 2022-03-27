@@ -1,4 +1,4 @@
-// MONGODB CONNECTION: mongodb+srv://sparky:<password>@cluster0.z3atg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+// MONGODB CONNECTION: mongodb+srv://<username>:<password>@cluster0.z3atg.mongodb.net/<database_name>?retryWrites=true&w=majority
 
 const express = require('express');
 const mongoose = require('mongoose');

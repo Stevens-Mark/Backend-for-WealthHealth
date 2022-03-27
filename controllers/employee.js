@@ -1,5 +1,3 @@
-// in controllers/stuff.js
-
 const Employee = require('../models/employee');
 
 exports.createThing = (req, res, next) => {
