@@ -5,8 +5,8 @@
 
 # Wealth Health
 
-- THIS VERSION USES A MONGODB ATLAS DATABASE AS THE BACKEND (NoSQL database)
-- USES NODE SERVER & EXPRESS FRAMEWORK
+- THIS IS THE BACKEND NEEDED FOR THE WEALTH HEALTH PROJECT
+- THE FRONTEND CAN BE FOUND AT BRANCH "db" [FrontEnd](https://github.com/Stevens-Mark/StevensMark_P14_04022022-)
 
 ## Switch a jQuery library to React
 
@@ -123,10 +123,11 @@ The converted plugin can be found here:
 
 # Wealth Health
 
-- CETTE VERSION UTILISE UNE BASE DE DONNÉES ATLAS MONGODB COMME BACKEND 
+- IL S'AGIT DU BACKEND NÉCESSAIRE AU PROJET DE WEALTH HEALTH.
+- LE FRONTEND PEUT ÊTRE TROUVÉ DANS LA BRANCHE "db" [FrontEnd](https://github.com/Stevens-Mark/StevensMark_P14_04022022-)
+
 
 ## Faites passer une librairie jQuery vers React
-
 
 ## Scénario
 Wealth Health est une grande société financière qui utilise une application web interne, appelée HRnet, pour gérer les dossiers des employés. L'application est ancienne et utilise jQuery sur le front-end, ce qui entraîne des bogues considérables et une augmentation des plaintes internes. 
