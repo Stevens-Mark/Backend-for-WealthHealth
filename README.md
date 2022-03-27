@@ -1,4 +1,4 @@
-![WealthHealth](/src/assets/logos/WealthHealth.webp)
+![WealthHealth](WealthHealth.webp)
 
 
 # OPENCLASSROOMS PROJECT 14 *(English)*
@@ -110,15 +110,6 @@ Here is the list of currently used jQuery plugins that need to be converted:
 The App runs on http://localhost:3001/
 
 
-## My coverted Plugin (npm package)
-
-The converted plugin can be found here:
-[react-custom-modal-by-msparkystevens](https://www.npmjs.com/package/react-custom-modal-by-msparkystevens)
-
-**Plugin Demo**
-[Demo](https://reactcustommodal.netlify.app/)
-
-
 # OPENCLASSROOMS PROJECT 14 *(Français)*
 
 # Wealth Health
@@ -228,12 +219,3 @@ Voici la liste des plugins jQuery actuellement utilisés qui doivent être conve
  `npm start`
 
 L'application fonctionne sur http://localhost:3001/
-
-
-## Mon plugin (npm package)
-
-Le plugin converti peut être trouvé ici :
-[react-custom-modal-by-msparkystevens](https://www.npmjs.com/package/react-custom-modal-by-msparkystevens)
-
-**Plugin Demo**
-[Demo](https://reactcustommodal.netlify.app/)
