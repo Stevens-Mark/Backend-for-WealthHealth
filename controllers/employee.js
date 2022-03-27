@@ -1,6 +1,6 @@
 const Employee = require('../models/employee');
 
-exports.createThing = (req, res, next) => {
+exports.createEmployee = (req, res, next) => {
   const employee = new Employee({
     firstName: req.body.firstName,
     lastName: req.body.lastName,
@@ -25,7 +25,8 @@ exports.createThing = (req, res, next) => {
   );
 };
 
-exports.getOneThing = (req, res, next) => {
+// not needed for this project
+exports.getOneEmployee = (req, res, next) => {
   Employee.findOne({
     _id: req.params.id
   }).then(
@@ -41,7 +42,8 @@ exports.getOneThing = (req, res, next) => {
   );
 };
 
-exports.modifyThing = (req, res, next) => {
+// not needed for this project
+exports.modifyEmployee = (req, res, next) => {
   const employee = new Employee({
     _id: req.params.id,
     firstName: req.body.firstName,
@@ -69,7 +71,8 @@ exports.modifyThing = (req, res, next) => {
   );
 };
 
-exports.deleteThing = (req, res, next) => {
+// not needed for this project
+exports.deleteEmployee = (req, res, next) => {
   Employee.deleteOne({_id: req.params.id}).then(
     () => {
       res.status(200).json({
@@ -85,7 +88,7 @@ exports.deleteThing = (req, res, next) => {
   );
 };
 
-exports.getAllStuff = (req, res, next) => {
+exports.getAllEmployees = (req, res, next) => {
   Employee.find().then(
     (employees) => {
       res.status(200).json(employees);
