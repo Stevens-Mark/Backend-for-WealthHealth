@@ -58,9 +58,7 @@ exports.modifyEmployee = (req, res, next) => {
   });
   Employee.updateOne({_id: req.params.id}, employee).then(
     () => {
-      res.status(201).json({
-        message: 'Employee updated successfully!'
-      });
+      res.status(201).json(employee);
     }
   ).catch(
     (error) => {
@@ -75,9 +73,7 @@ exports.modifyEmployee = (req, res, next) => {
 exports.deleteEmployee = (req, res, next) => {
   Employee.deleteOne({_id: req.params.id}).then(
     () => {
-      res.status(200).json({
-        message: 'Deleted!'
-      });
+      res.status(200).json(req.params.id); // return successful return deleted item ID
     }
   ).catch(
     (error) => {
