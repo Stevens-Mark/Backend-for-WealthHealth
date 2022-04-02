@@ -5,8 +5,8 @@
 
 # Wealth Health
 
-- THIS IS THE BACKEND NEEDED FOR THE WEALTH HEALTH PROJECT
-- THE FRONTEND CAN BE FOUND AT BRANCH "db" [FrontEnd](https://github.com/Stevens-Mark/StevensMark_P14_04022022-)
+- THIS IS THE BACKEND NEEDED FOR THE WEALTH HEALTH PROJECT (full CRUD version)
+- THE FRONTEND CAN BE FOUND AT BRANCH "full" [FrontEnd](https://github.com/Stevens-Mark/StevensMark_P14_04022022)
 
 ## Switch a jQuery library to React
 
@@ -98,8 +98,8 @@ Here is the list of currently used jQuery plugins that need to be converted:
 - [Go Full-Stack With Node.js, Express, and MongoDB](https://openclassrooms.com/en/courses/5614116-go-full-stack-with-node-js-express-and-mongodb/5656211-set-up-your-database)
 
 ### FrontEnd
-- Clone the repository onto your computer : branch "db"
-  `git clone https://github.com/Stevens-Mark/StevensMark_P14_04022022-`
+- Clone the repository onto your computer : branch "full"
+  `git clone https://github.com/Stevens-Mark/StevensMark_P14_04022022`
 
 - Inside this repository, install the packages/dependencies :
  `npm install`
@@ -114,8 +114,8 @@ The App runs on http://localhost:3001/
 
 # Wealth Health
 
-- IL S'AGIT DU BACKEND NÉCESSAIRE AU PROJET DE WEALTH HEALTH.
-- LE FRONTEND PEUT ÊTRE TROUVÉ DANS LA BRANCHE "db" [FrontEnd](https://github.com/Stevens-Mark/StevensMark_P14_04022022-)
+- IL S'AGIT DU BACKEND NÉCESSAIRE AU PROJET DE WEALTH HEALTH.(full CRUD version)
+- LE FRONTEND PEUT ÊTRE TROUVÉ DANS LA BRANCHE "full" [FrontEnd](https://github.com/Stevens-Mark/StevensMark_P14_04022022)
 
 
 ## Faites passer une librairie jQuery vers React
@@ -182,7 +182,7 @@ Voici la liste des plugins jQuery actuellement utilisés qui doivent être conve
 
 ### BackEnd
 
-- Clonez le dépôt P14_Backend sur votre ordinateur : 
+- Clonez le dépôt P14_Backend sur votre ordinateur : branche "full"
   `git clone https://github.com/Stevens-Mark/P14_Backend.git`
 
 ### Créer votre propre base de données
@@ -209,8 +209,8 @@ Voici la liste des plugins jQuery actuellement utilisés qui doivent être conve
 
 
 ### FrontEnd
-- Clonez le repo sur votre ordinateur :
-  `git clone https://github.com/Stevens-Mark/StevensMark_P14_04022022-`
+- Clonez le repo sur votre ordinateur : branche "full"
+  `git clone https://github.com/Stevens-Mark/StevensMark_P14_04022022`
 
 - Dans ce dépôt, installez les paquets/dépendances :
  `npm install`
