@@ -1,5 +1,6 @@
 const Employee = require('../models/employee');
 
+// add data
 exports.createEmployee = (req, res, next) => {
   const employee = new Employee({
     firstName: req.body.firstName,
@@ -42,7 +43,7 @@ exports.getOneEmployee = (req, res, next) => {
   );
 };
 
-// not needed for this project
+// modify data
 exports.modifyEmployee = (req, res, next) => {
   const employee = new Employee({
     _id: req.params.id,
@@ -69,11 +70,11 @@ exports.modifyEmployee = (req, res, next) => {
   );
 };
 
-// not needed for this project
+// delete data
 exports.deleteEmployee = (req, res, next) => {
   Employee.deleteOne({_id: req.params.id}).then(
     () => {
-      res.status(200).json(req.params.id); // return successful return deleted item ID
+      res.status(200).json(req.params.id); // if successful return deleted item ID
     }
   ).catch(
     (error) => {
@@ -84,6 +85,7 @@ exports.deleteEmployee = (req, res, next) => {
   );
 };
 
+// fetch all data
 exports.getAllEmployees = (req, res, next) => {
   Employee.find().then(
     (employees) => {

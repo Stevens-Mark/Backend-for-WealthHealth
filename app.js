@@ -1,5 +1,3 @@
-// MONGODB CONNECTION: mongodb+srv://<username>:<password>@cluster0.z3atg.mongodb.net/<database_name>?retryWrites=true&w=majority
-
 const express = require('express');
 const mongoose = require('mongoose');
 const employeesRoutes = require('./routes/employees');
@@ -7,7 +5,8 @@ const app = express();
 
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://sparky:<mongoCredentials>@cluster0.z3atg.mongodb.net/wealthhealth?retryWrites=true&w=majority')
+// MONGODB CONNECTION: mongodb+srv://<username>:<password>@cluster0.z3atg.mongodb.net/<database_name>?retryWrites=true&w=majority
+mongoose.connect('mongodb+srv://<username>:<password>@cluster0.z3atg.mongodb.net/<database_name>?retryWrites=true&w=majority')
   .then(() => {
     console.log('succesfully connected to MongoDB Atlas!')
   })
