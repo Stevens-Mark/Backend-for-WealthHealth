@@ -1,13 +1,13 @@
+require("dotenv").config(); // package needed to access .env variables
 const express = require('express');
 const mongoose = require('mongoose');
 const employeesRoutes = require('./routes/employees');
 const app = express();
+const MONGO_URL = process.env.REACT_APP_CONNECT_KEY;
 
 app.use(express.json());
 
-// MONGODB CONNECTION: mongodb+srv://sparky:<password>@cluster.bn5mjsq.mongodb.net/?retryWrites=true&w=majority
-
-mongoose.connect(`mongodb+srv://sparky:${process.env.REACT_APP_CONNECT_KEY}@cluster.bn5mjsq.mongodb.net/?retryWrites=true&w=majority`)
+mongoose.connect(`mongodb+srv://${MONGO_URL}/?retryWrites=true&w=majority`)
 .then(() => {
     console.log('succesfully connected to MongoDB Atlas!')
   })

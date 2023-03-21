@@ -64,6 +64,7 @@ Here is the list of currently used jQuery plugins that need to be converted:
 ## Dependencies
 - [Express](https://expressjs.com/) Version 4.17.3
 - [Mongoose](https://www.npmjs.com/package/mongoose) Version 6.2.8
+- [Dotenv](https://www.npmjs.com/package/dotenv) Version 16.0.3
 
 ## Installing and running the project
 
@@ -87,8 +88,8 @@ Here is the list of currently used jQuery plugins that need to be converted:
 
 -From your MongoDB Atlas, click the Connect button, and choose "Connect your application." You can then select "driver 3.6 or later" and COPY the generated SRV address as you will paste this in the app.js file.
 - Go to the app.js file: at line 10: 
-- It will look something like this: mongoose.connect('mongodb+srv://<username>:<password>@cluster0.z3atg.mongodb.net/<database_name>?retryWrites=true&w=majority')
-- Replace the SRV address with your own MongoDB: don't forget to add your <username> <password> <database_name> strings.
+- It will look something like this: mongoose.connect('mongodb+srv://<username>:<password>@cluster0.wxyz.mongodb.net/<database_name>?retryWrites=true&w=majority')
+- Replace the SRV address with your own: don't forget to add your <username> <password> <database_name> strings. Or better still, create environment variables for this. Don't forget to exclude the .env file in .gitignore.
 - To start your server type  `nodemon server`
 - After saving this and restarting your server if necessary, you should see "Listeniing on port 3000, Successfully connected to MongoDB Atlas" logged to the console. Your API is now connected to your database cluster!!
 
@@ -177,6 +178,7 @@ Voici la liste des plugins jQuery actuellement utilisés qui doivent être conve
 ## Dépendances
 - [Express](https://expressjs.com/) Version 4.17.3
 - [Mongoose](https://www.npmjs.com/package/mongoose) Version 6.2.8
+- [Dotenv](https://www.npmjs.com/package/dotenv) Version 16.0.3
 
 ## Installer et exécuter le projet
 
@@ -197,8 +199,8 @@ Voici la liste des plugins jQuery actuellement utilisés qui doivent être conve
 
 -Depuis votre Atlas MongoDB, cliquez sur le bouton Connecter, et choisissez "Connecter votre application". Vous pouvez ensuite sélectionner "driver 3.6 ou plus" et COPIER l'adresse SRV générée car vous allez la coller dans le fichier app.js.
 - Allez dans le fichier app.js : à la ligne 10 : 
-- Il se présentera comme suit: mongoose.connect('mongodb+srv://<username>:<password>@cluster0.z3atg.mongodb.net/<database_name>?retryWrites=true&w=majority')
-- Remplacez l'adresse SRV par vos propres chaînes MongoDB <username> <password> <database_name>.
+- Il se présentera comme suit: mongoose.connect('mongodb+srv://<username>:<password>@cluster0.wxyz.mongodb.net/<database_name>?retryWrites=true&w=majority')
+- Remplacez l'adresse SRV par la vôtre : n'oubliez pas d'ajouter votre <username> <password> <database_name>. Ou mieux encore, créez des variables d'environnement pour cela. N'oubliez pas d'exclure le fichier .env dans .gitignore.
 - Pour démarrer votre serveur, tapez `nodemon server`.
 - Après avoir sauvegardé et redémarré votre serveur si nécessaire, vous devriez voir "Listeniing on port 3000, Successfully connected to MongoDB Atlas" enregistré dans la console. Votre API est maintenant connectée à votre cluster de base de données !
 
