@@ -8,6 +8,9 @@
 - THIS IS THE BACKEND NEEDED FOR THE WEALTH HEALTH PROJECT (full CRUD version)
 - THE FRONTEND CAN BE FOUND AT BRANCH "full" [FrontEnd](https://github.com/Stevens-Mark/StevensMark_P14_04022022)
 
+- open the site at: [Wealth-Health](https://wealthcrud.netlify.app/)
+- The backend is hosted using [Railway](https://railway.app/)
+
 ## Switch a jQuery library to React
 
 ## Scenario
@@ -118,6 +121,8 @@ The App runs on http://localhost:3001/
 - IL S'AGIT DU BACKEND NÉCESSAIRE AU PROJET DE WEALTH HEALTH.(full CRUD version)
 - LE FRONTEND PEUT ÊTRE TROUVÉ DANS LA BRANCHE "full" [FrontEnd](https://github.com/Stevens-Mark/StevensMark_P14_04022022)
 
+- ouvrir le site à : [Wealth-Health](https://wealthcrud.netlify.app/)
+- Le backend est hébergé par [Railway](https://railway.app/)
 
 ## Faites passer une librairie jQuery vers React
 
