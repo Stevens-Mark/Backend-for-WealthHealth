@@ -5,9 +5,10 @@ const app = express();
 
 app.use(express.json());
 
-// MONGODB CONNECTION: mongodb+srv://<username>:<password>@cluster0.z3atg.mongodb.net/<database_name>?retryWrites=true&w=majority
-mongoose.connect('mongodb+srv://<username>:<password>@cluster0.z3atg.mongodb.net/<database_name>?retryWrites=true&w=majority')
-  .then(() => {
+// MONGODB CONNECTION: mongodb+srv://sparky:<password>@cluster.bn5mjsq.mongodb.net/?retryWrites=true&w=majority
+
+mongoose.connect(`mongodb+srv://sparky:${process.env.REACT_APP_CONNECT_KEY}@cluster.bn5mjsq.mongodb.net/?retryWrites=true&w=majority`)
+.then(() => {
     console.log('succesfully connected to MongoDB Atlas!')
   })
   .catch((error) =>{
