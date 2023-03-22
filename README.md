@@ -1,12 +1,11 @@
 ![WealthHealth](WealthHealth.webp)
 
 
-# OPENCLASSROOMS PROJECT 14 *(English)*
 
-# Wealth Health
+# Wealth Health - backend
 
-- THIS IS THE BACKEND NEEDED FOR THE WEALTH HEALTH PROJECT
-- THE FRONTEND CAN BE FOUND AT BRANCH "db" [FrontEnd](https://github.com/Stevens-Mark/StevensMark_P14_04022022-)
+- THIS IS THE BACKEND NEEDED FOR THE WEALTH HEALTH PROJECT (MongoDB version)
+- THE FRONTEND CAN BE FOUND AT BRANCH "db" [FrontEnd](https://github.com/Stevens-Mark/WealthHealth.git)
 
 ## Switch a jQuery library to React
 
@@ -69,8 +68,8 @@ Here is the list of currently used jQuery plugins that need to be converted:
 
 ### BackEnd
 
-- Clone the repository P14_Backend onto your computer : 
-  `git clone https://github.com/Stevens-Mark/P14_Backend.git`
+- Clone the repository P14_Backend onto your computer : branch "main"
+  `git clone https://github.com/Stevens-Mark/Backend-for-WealthHealth.git`
 
 - Inside this repository, install the packages/dependencies :
  `npm install`
@@ -99,7 +98,7 @@ Here is the list of currently used jQuery plugins that need to be converted:
 
 ### FrontEnd
 - Clone the repository onto your computer : branch "db"
-  `git clone https://github.com/Stevens-Mark/StevensMark_P14_04022022-`
+  `git clone https://github.com/Stevens-Mark/WealthHealth.git`
 
 - Inside this repository, install the packages/dependencies :
  `npm install`
@@ -110,12 +109,11 @@ Here is the list of currently used jQuery plugins that need to be converted:
 The App runs on http://localhost:3001/
 
 
-# OPENCLASSROOMS PROJECT 14 *(Français)*
 
-# Wealth Health
+# Wealth Health - backend
 
-- IL S'AGIT DU BACKEND NÉCESSAIRE AU PROJET DE WEALTH HEALTH.
-- LE FRONTEND PEUT ÊTRE TROUVÉ DANS LA BRANCHE "db" [FrontEnd](https://github.com/Stevens-Mark/StevensMark_P14_04022022-)
+- IL S'AGIT DU BACKEND NÉCESSAIRE AU PROJET DE WEALTH HEALTH.(MongoDB version)
+- LE FRONTEND PEUT ÊTRE TROUVÉ DANS LA BRANCHE "db" [FrontEnd](https://github.com/Stevens-Mark/WealthHealth.git)
 
 
 ## Faites passer une librairie jQuery vers React
@@ -182,8 +180,8 @@ Voici la liste des plugins jQuery actuellement utilisés qui doivent être conve
 
 ### BackEnd
 
-- Clonez le dépôt P14_Backend sur votre ordinateur : 
-  `git clone https://github.com/Stevens-Mark/P14_Backend.git`
+- Clonez le dépôt P14_Backend sur votre ordinateur : branche "main"
+  `git clone https://github.com/Stevens-Mark/Backend-for-WealthHealth.git`
 
 ### Créer votre propre base de données
 
@@ -209,8 +207,8 @@ Voici la liste des plugins jQuery actuellement utilisés qui doivent être conve
 
 
 ### FrontEnd
-- Clonez le repo sur votre ordinateur :
-  `git clone https://github.com/Stevens-Mark/StevensMark_P14_04022022-`
+- Clonez le repo sur votre ordinateur : branche "db"
+  `git clone https://github.com/Stevens-Mark/WealthHealth.git`
 
 - Dans ce dépôt, installez les paquets/dépendances :
  `npm install`
