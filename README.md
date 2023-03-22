@@ -1,8 +1,6 @@
 ![WealthHealth](WealthHealth.webp)
 
 
-# OPENCLASSROOMS PROJECT 14 *(English)*
-
 # Wealth Health
 
 - THIS IS THE BACKEND NEEDED FOR THE WEALTH HEALTH PROJECT (full CRUD version)
@@ -73,8 +71,8 @@ Here is the list of currently used jQuery plugins that need to be converted:
 
 ### BackEnd
 
-- Clone the repository P14_Backend onto your computer : 
-  `git clone https://github.com/Stevens-Mark/P14_Backend.git`
+- Clone the repository Backend onto your computer (branch "full") : 
+  `git clone https://github.com/Stevens-Mark/Backend-for-WealthHealth.git`
 
 - Inside this repository, install the packages/dependencies :
  `npm install`
@@ -103,7 +101,7 @@ Here is the list of currently used jQuery plugins that need to be converted:
 
 ### FrontEnd
 - Clone the repository onto your computer : branch "full"
-  `git clone https://github.com/Stevens-Mark/StevensMark_P14_04022022`
+  `git clone hhttps://github.com/Stevens-Mark/WealthHealth.git`
 
 - Inside this repository, install the packages/dependencies :
  `npm install`
@@ -114,7 +112,6 @@ Here is the list of currently used jQuery plugins that need to be converted:
 The App runs on http://localhost:3001/
 
 
-# OPENCLASSROOMS PROJECT 14 *(Français)*
 
 # Wealth Health
 
@@ -189,8 +186,8 @@ Voici la liste des plugins jQuery actuellement utilisés qui doivent être conve
 
 ### BackEnd
 
-- Clonez le dépôt P14_Backend sur votre ordinateur : branche "full"
-  `git clone https://github.com/Stevens-Mark/P14_Backend.git`
+- Clonez le dépôt Backend sur votre ordinateur : branche "full"
+  `git clone https://github.com/Stevens-Mark/Backend-for-WealthHealth.git`
 
 ### Créer votre propre base de données
 
@@ -217,7 +214,7 @@ Voici la liste des plugins jQuery actuellement utilisés qui doivent être conve
 
 ### FrontEnd
 - Clonez le repo sur votre ordinateur : branche "full"
-  `git clone https://github.com/Stevens-Mark/StevensMark_P14_04022022`
+  `git clone https://github.com/Stevens-Mark/WealthHealth.git`
 
 - Dans ce dépôt, installez les paquets/dépendances :
  `npm install`
